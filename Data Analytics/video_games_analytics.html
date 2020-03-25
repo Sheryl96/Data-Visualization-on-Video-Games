@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html xml:lang="en" lang="en">
+<head>
+  <title>Analysis of Video Games</title>
+  <style>
+* { padding: 0; margin: 0; }
+
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background-color: #33333f;
+  width: 840px;
+  font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
+  font-size: 0.95em;
+}
+
+a, a:visited { text-decoration: none; color: #7533f4; }
+a:hover { text-decoration: underline; color: #f4b014; }
+img, a.img, a:hover.img { border: none; }
+
+img {
+  max-width: 800px;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #492a7c;
+  background-color: inherit;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 15px 0 0 0;
+  border: none;
+  clear: right;
+}
+h1 { font-size: 18pt; margin:  5px 0 10px 0; line-height: 28px; }
+h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
+h3 { font-size: 13pt; }
+h4 { font-size: 12pt; }
+h5 { font-size: 11pt; }
+p { margin: 0 0 10px 0; }
+hr { border: 0px; border-top: 1px solid #ccc; height: 0px; }
+ol { margin: 1em; }
+
+.content {
+  margin: 0;
+  padding: 15px 20px;
+  background-color: #ffffff;
+}
+
+.article {
+  line-height: 1.5em;
+}
+
+.entry  {
+  border-top: 1px solid #ddd;
+  padding-top: 2px;
+  margin-top: 3em;
+}
+  </style>
+</head>
+
+<body>
+<div class='content'>
+
+<section>
+  <h1>Analysis of Video Games</h1>
+
+<!--  <p>
+    <strong>Author: Sheryl Bernard</strong>
+  </p>-->
+</section>
+
+<section>
+  <h2>Dataset</h2>
+
+  <p>
+    The Dataset is 'Video Game Sales'. This dataset is extremely comprehensive demographic about the statistics of different video games from 1992 to 2016. <br/><br>
+    <b>What is this data about? Who produced this dataset? Why are you interested in it?</b><br/>
+    This dataset contains a list of video games with different sales, i.e. global sales, european sales, north america sales and japan sales, along with banned category of each game. I have joined two different datasets using Trifacta, in order to understand the relationship of sales and games banned in each country.  
+  </p>
+
+  <p>
+    The data is available online at:
+    <strong>
+      <a href="https://gist.github.com/f3c8730c887f0597c310e9f9146ff622.git">https://gist.github.com/f3c8730c887f0597c310e9f9146ff622.git</a>
+    </strong>
+  </p>
+</section>
+
+<section>
+  <h2>Initial Analysis Questions</h2>
+  <ol>
+    <li>Which games have the highest sales?</li>
+    <li>For what reason do games usually get banned?</li>
+    <li>Which game genre is most played?</li>
+    <li>In which country are video game sales the most?</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Discoveries &amp; Insights</h2>
+
+  <div class="entry"><p>Q1</p>
+    <img src="imgs/Sheet1.png" />
+    <p class="caption"><br/>
+    This donut chart helps understand which genre of game is played the most.
+    </p>
+  </div>
+
+  <div class="entry"><p>Q2</p>
+    <img src="imgs/Sheet2.png" />
+    <p class="caption"><br/>
+    Based on the sum of user counts, these are the top 20 games. That is, is graph helps us understand which game is played the most. 	
+    </p>
+  </div>
+
+  <div class="entry"><p>Q3</p>
+    <img src="imgs/Sheet3.png" />
+    <p class="caption"><br/>
+    By the help of this TreeMap we can instantly look and understand which genre was most played from 1992 till 2016. Each color is used to distinguish the various game genres. 
+    </p>
+  </div>
+
+  <div class="entry"><p>Q4</p>
+    <img src="imgs/Sheet5.png" />
+    <p class="caption"><br/>
+    This visualization shows in countries having different ban category. It also represents the current ban status on the games. 
+    </p>
+  </div>
+
+  <div class="entry"><p>Q5</p>
+    <img src="imgs/Sheet6.png" />
+    <p class="caption"><br/>
+    The top eight games having the highest sales are represented in this packed bubble chart. Since the biggest bubble is of Grand Theft Auto V, it shows that GTA V has had the highest global sales. 
+    </p>
+  </div>
+
+  <div class="entry"><p>Q6</p>
+    <img src="imgs/Sheet9.png" />
+    <p class="caption"><br/>
+    This lollipop chart shows how much sales are in each country. I have excluded China, Denmark, Malaysia, United Kingdom and United States as there global sales were less than 9. 
+    </p>
+  </div>
+
+  <div class="entry"><p>Q7</p>
+    <img src="imgs/Dashboard 1.png" />
+    <p class="caption"><br/>
+    This visualization has four graph. First one is about the sales of various platforms in Europe per year, second one is Global sales of various platforms per year, third is sales of various platforms in Japan per year, and fourth is sales of various platforms in North America per year. 
+    </p>
+  </div>
+
+  <div class="entry"><p>Q8</p>
+    <img src="imgs/Sheet11.png" />
+    <p class="caption"><br/>
+    User count and user score per platform is analysed in this graph. This helps understand how popularly is the platform, and which platform is most preferred by the users. 
+    </p>
+  </div>
+
+  <div class="entry"><p>Q9</p>
+    <img src="imgs/Sheet10.png" />
+    <p class="caption"><br/>
+    By the help of this visulization we can understand the sales in various parts and compare that with the global sales. Further by analysing this graph we can understand that the sales of video games is very low in Japan as compared to North America. 
+    </p>
+  </div>
+
+  <div class="entry"><p>Q10</p>
+    <img src="imgs/Sheet4.png" />
+    <p class="caption"><br/>
+    This visualization depicts about various genres played in different platforms. Darker the color, more number of records of that particular genre. 
+    </p>
+  </div>
+
+  <div class="entry">
+    <h3>Summary</h3>
+    <p>
+    Different visulizations of the Video Game Sales dataset helped understand a lot about the data, for instance it depicted which game is most popular and most played, sales of different games in various platforms, which genre is most played, and which games were banned in different countries. By combining, cleaning, wrangling and processing the two datasets, namely video games sales and banned video games, helped to get consistent visualizations.   
+    </p>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
